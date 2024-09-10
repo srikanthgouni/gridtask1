@@ -1,0 +1,38 @@
+.parent{
+   grid-template-rows: repeat(8,1fr);
+    grid-template-columns: repeat(4,1fr);
+    display: grid;
+    gap: 10px;
+    width: 800px;
+    height:500px;
+
+}
+.child{
+    background-color: yellow;
+}
+.a{
+    grid-column:1/5 ;
+    grid-row:1/5;
+}
+.b{
+    grid-row: 5/9;
+}
+.c{
+    grid-row: 5/6;
+}
+.d{
+grid-row:5/7 ;
+
+}
+.e{
+    grid-row:5/8;
+}
+.f{
+    grid-row:6/9;
+}
+.g{
+    grid-row: 7/8;
+}
+.h{
+   grid-row:8/9;
+}
